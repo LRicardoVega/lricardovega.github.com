@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!--Siempre debe llevar el doctype. Es una declaracion de la version de html-->
+<html>
+  <head><!--Se especifican los metadatos del proyecto. Datos que describen otros datos-->
+    <title>Arsene Test Page</title><!--El titulo de la pagina. Es el titulo que se vera en la pestaña-->
+    <meta charset="utf-8"><!--charset: Muestra el conjunto de caracteres con el que debe mostrarse la pagina-->
+    <!--La etiqueta meta se usa para describir metadatos-->
+    <!--Metadatos son datos extras en la pagina y que no son la informacion principal-->
+    <meta name="description" content="Arsene sdasdasndiasdmfimsdfmdsfsdfs"><!--Se usa para hacer un resumen de la pagina-->
+    <!--Etiquetas protocolo Open Graph: Muestra previews de la pagina
+    <meta name="og:title" content="CV de Ricardo Vega">
+    <meta name="og:description" content="Ricardo fnsfvbgfhghfjnfbdfvfb">
+    <meta name="og:url" content="ricardo.me">
+    <meta name="og:site_name" content="Proyectos personales de Ricardo">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="<url-image>">
+    -->
+
+  </head>
+  <body style="font-family:Helvetica, Arial, sans-serif;margin:0;"><!--font-family cambia el tipo de fuente de la letra
+    En este caso intentara usar Helvetica primero, de no estar disponible intentara usar arial-->
+    <!--Aqui van los datos que se muestran en la pagina-->
+    <!--Etiqueta p es para un parrafo de texto-->
+    <!--<p nombre="valor"></p> Los atributos siempre llevan un nombre y un valor y siempre se colocan en la
+    etiqueta que lleva el elemento-->
+    <!--<input autofocus> -->
+    <!--margin cambia el margen. la etiqueta body trae por defecto un margen.-->
+
+    <header style="background-color:#3949ab;color:white;text-align:center;padding:16px;"><!--Es para encabezados.-->
+      <!--padding agrega un espacio en blanco en todas las direcciones con el grosor indicado-->
+      <!--bakcground-color cambia el color de fondo de ese bloque.
+      Color cambia el color de la letra-->
+      <!--text-align permite alinear el texto en relacion con la pantalla-->
+      <h1 style="display:inline-block;width:400px;font-weight:700;">Arsene Test Page</h1>
+      <!--h1 es la etiqueta para los titulos. Existen hasta h6. Debe procurar usarse solo un h1 por pagina-->
+      <!--style sirve para cambiar el estilo del texto. display se usa para cambiar como se ve el texto
+      por defecto es block aqui se cambio a inline-block osea que no va a hacer un salto de linea
+    width se usa para asignar el tamaño del block-->
+    <!--font-weight se usa para cambiar el grosor de las letras-->
+      <p style="display:inline-block;font-weight:200">Test</p>
+    </header>
+    <div style="background-color:#f06292;color:black;text-align:center;padding:10px;"><!--Sirve para agupar elementos dentro de otro elemento
+    Se crea para usar propiedades CSS sobre un objeto o grupo de objetos-->
+      Mexican video game enthusiast
+    </div>
+    <section>
+    <!--section separa nuestra pagina web. Usar esta etiqueta cada que se use una nueva seccion de la pagina-->
+      <div style="width:960px;margin-right:auto;margin-left:auto;">
+        <!--margin-right y margin-left sirven para crear un margen. Al usar el valor auto en ambos provoca que el objeto quede centrado-->
+        <div>
+          <div style="display:inline-block;width:68%;vertical-align:top;">
+            <h3 style="font-size:36px;font-weight:700;">Ps4</h3>
+            <div>
+              <dl> <!-- dl son listas de definicion, existen 3 tipos de listas: Ordenana, desordenada y de definicion.-->
+                <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">P5</dt> <!--text-transform nos permite cambiar entre mayusculas y minusculas-->
+                <dd style="margin:0;">2016</dd>
+                <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">FFXV</dt>
+                <dd style="margin:0;">2014</dd>
+              </dl>
+            </div>
+          </div>
+          <div style="display:inline-block;width:30%;margin-top:20px">
+            <img src="VSnake.jpg" width="300"> <!--Declara una imagen. Esta etiqueta se cierra en la misma declaracion por lo que no es necesario escribir el cierre-->
+          </div>
+        </div>
+      </div>
+      <div style="width:960px;margin-right:auto;margin-left:auto;margin-top:70px;">
+          <h3 style="font-size:36px;font-weight:700;">PC</h3>
+          <div>
+            <dl>
+              <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">CFE</dt>
+              <dd style="margin:0;">FFXIV</dd>
+              <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">TEBAEV</dt>
+              <dd style="margin:0;">WoW</dd>
+            </dl>
+          </div>
+      </div>
+      <div style="width:960px;margin-right:auto;margin-left:auto;margin-top:70px;">
+          <h3 style="font-size:36px;font-weight:700;">Nintendo</h3>
+          <div>
+            <dl>
+              <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">Software Guru</dt>
+              <dd style="margin:0;">Legend Of Zelda</dd>
+              <dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px">Arduino Basico</dt>
+              <dd style="margin:0;">Metroid</dd>
+            </dl>
+          </div>
+      </div>
+      <div style="width:960px;margin-right:auto;margin-left:auto;margin-top:70px;">
+          <h3 style="font-size:36px;font-weight:700;">Other</h3>
+          <div>
+            <ul style="margin-top:12px;padding:0px;"><!--Lista desordenada-->
+              <li style="margin-top:16px">Video game</li>
+              <li style="margin-top:16px;">D&D 5e</li>
+            </ul>
+          </div>
+
+      </div>
+      <div style="width:960px;margin-right:auto;margin-left:auto;margin-top:70px;">
+          <h3 style="font-size:36px;font-weight:700;">Social Media</h3>
+          <div>
+            <ul style="margin-top:12px;padding:0px;"><!--Lista desordenada-->
+              <li style="margin-top:16px">
+                <a href="https://www.youtube.com/channel/UCDxEQGYZaq3j6kJzKDYXTtg" target="_blank">Youtube</a></li> <!--La etiqueta a define un hipervinculo-->
+                <!-- target="_blank" hace que el navegador abra otra pestaña y vaya a la direccion del link -->
+              <li style="margin-top:16px;">
+                <a href="https://steamcommunity.com/profiles/76561198048864297" target="_blank">Steam</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
